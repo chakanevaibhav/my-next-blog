@@ -1,8 +1,11 @@
 import React from 'react'
+import classes from './featured-posts.module.scss'
 
 const FeaturedPosts = () => {
   return (
-    <div>FeaturedPosts</div>
+    <section className={classes.latest}>
+        <h2>Featured Posts</h2>
+    </section>
   )
 }
 

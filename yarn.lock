@@ -222,6 +222,11 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
+grey-matter@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/grey-matter/-/grey-matter-0.0.0.tgz#08ecf3a1ab470cff4702cca19029eb7f7517f837"
+  integrity sha512-gSz+zNvngEaQaMYUsOuU2dt8lXfkIEkbzVOSWt4ru0/jjTLK27VCXhNdHwwQFHflbcNR8rkNsJ9Dcz6k0imMaA==
+
 hast-util-to-jsx-runtime@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.2.0.tgz#ffd59bfcf0eb8321c6ed511bfc4b399ac3404bc2"

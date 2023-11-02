@@ -9,6 +9,7 @@ const handler = (req, res) => {
       !message ||
       message.trim() === ""
     ) {
+      console.log(email, name, message);
       res.status(422).json({ message: "Invalid input." });
       return;
     }

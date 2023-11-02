@@ -1,3 +1,4 @@
+import Head from "next/head";
 import FeaturedPosts from "../components/home/featured-posts";
 import Hero from "../components/home/hero";
 import { getFeaturedPosts } from "../lib/posts-util";
@@ -5,6 +6,10 @@ import { getFeaturedPosts } from "../lib/posts-util";
 const Home = (props) => {
   return (
     <>
+      <Head>
+        <title>Vaibhav's Blog</title>
+        <meta name="description" content="a blog of a web developer" />
+      </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
     </>

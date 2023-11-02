@@ -22,6 +22,9 @@ const ContactForm = () => {
       },
     });
     setSuccess(true);
+    setTimeout(() => {
+      setSuccess(false);
+    }, 2000);
   };
 
   return (
